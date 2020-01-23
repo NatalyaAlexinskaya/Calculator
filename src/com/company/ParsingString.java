@@ -1,12 +1,9 @@
 package com.company;
 
-import com.Exception.WrongCharacterException;
-
 import java.util.Stack;
 
 public class ParsingString {
-    public static String pars(String text) throws WrongCharacterException {
-        CheckValidation.check(text);
+    public static String pars(String text) {
         StringBuilder current = new StringBuilder();
         Stack<Character> stack = new Stack<>();
 
